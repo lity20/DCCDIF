@@ -2,7 +2,7 @@
 
 This is an implementation of the CVPR 2022 paper [Learning Deep Implicit Functions for 3D Shapes with Dynamic Code Clouds](https://arxiv.org/abs/2203.14048).
 
-[[Paper](https://yushen-liu.github.io/main/pdf/LiuYS_CVPR2022_DCC-DIF.pdf)] [[Supplement](https://yushen-liu.github.io/main/pdf/LiuYS_CVPR2022_DCC-DIF-supp.pdf)] [[Data](https://drive.google.com/drive/folders/1UIh8AxULPi9vY0c1wuZ7HRX4XxDI6a1P?usp=sharing)] [[Project page](https://lity20.github.io/DCCDIF_project_page/)]
+[[Paper](https://yushen-liu.github.io/main/pdf/LiuYS_CVPR2022_DCC-DIF.pdf)] [[Supplement](https://yushen-liu.github.io/main/pdf/LiuYS_CVPR2022_DCC-DIF-supp.pdf)] [[Data](https://drive.google.com/drive/folders/1UIh8AxULPi9vY0c1wuZ7HRX4XxDI6a1P?usp=sharing)] [[Project page](https://lity20.github.io/DCCDIF_project_page/)] [[Jittor Code](https://github.com/lity20/DCCDIF-jittor)]
 
 ## Data
 
@@ -16,7 +16,7 @@ First, install python denpendencies:
 pip install -r requirements.txt
 ```
 
-Then, prepare your configuration file based the example we provide in `configs/bench.py`. You may need to specify the paths to data and split files.
+Then, prepare your configuration file based on the example we provide in `configs/bench.py`. You may need to specify the paths to data and split files.
 
 
 Now you can reproduce the experimental results in our paper by running:
